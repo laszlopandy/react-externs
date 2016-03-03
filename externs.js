@@ -1616,6 +1616,12 @@ React.Children.forEach;
 
 /**
  * @param {Object} children Children tree container.
+ * @return {number} Total number of components in children.
+ */
+React.Children.count;
+
+/**
+ * @param {Object} children Children tree container.
  * @return {Object|undefined}
  */
 React.Children.only;
