@@ -20,6 +20,7 @@ React.version;
 React.initializeTouchEvents = function(shouldUseTouch) {};
 
 React.createClass = function(specification) {};
+React.createElement = function(type, props, children) {};
 React.createFactory = function(reactClass) {};
 
 /**
