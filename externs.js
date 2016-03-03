@@ -21,6 +21,7 @@ React.initializeTouchEvents = function(shouldUseTouch) {};
 
 React.createClass = function(specification) {};
 React.createElement = function(type, props, children) {};
+React.cloneElement = function(element, props, children) {};
 React.createFactory = function(reactClass) {};
 
 /**
